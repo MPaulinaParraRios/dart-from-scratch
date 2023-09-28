@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main(){
-  print('Hola! Bienvenido al calculador de años.');
+  print('Hola! bienvenido al calculador de años.');
   print('Escribe tu nombre: ');
   String? nameInput = stdin.readLineSync();
   print('Un gusto conocerte $nameInput');
