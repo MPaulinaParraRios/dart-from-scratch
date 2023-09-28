@@ -5,7 +5,7 @@ void main (){
   print('Ingrese el primer número:');
   double? a = double.tryParse(stdin.readLineSync()!);
 
-  print('Ingrese el primer número:');
+  print('Ingrese el segundo número:');
   double? b = double.tryParse(stdin.readLineSync()!);
 
   const indeterminado = "Indeterminado";
