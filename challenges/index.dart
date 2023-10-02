@@ -165,7 +165,8 @@ class Fraccion {
   }
 
   Fraccion Restar(Fraccion otra) {
-    int nuevoNumerador = numerador * otra.denominador - otra.numerador * denominador;
+    int nuevoNumerador =
+        numerador * otra.denominador - otra.numerador * denominador;
     int nuevoDenominador = denominador * otra.denominador;
     return new Fraccion(nuevoNumerador, nuevoDenominador);
   }
